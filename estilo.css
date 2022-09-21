@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,900&family=Russo+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/*--------------------------------------------------*/
+.navbar {
+    background: #ffffff;
+    display: flex;
+    flex-flow: wrap row;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top:0px
+
+}
+.logo {
+    color: #170b87;
+    flex: 25%;
+    text-align: left;
+    margin-left: 10%;
+}
+.logo h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px #bfac8b;
+}
+.menu {
+    flex: 65%; 
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+color: #170b87;
+text-decoration: none;
+font-size: 20px;
+padding: 20px 16px;
+}
+.menu a:hover{
+    border-top: 4px solid #bfac8b;
+}
+#botao{
+    border-top: none;
+    color: #ffffff;
+    background: #170b87;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    background: #bfac8b;
+    color: #170b87;
+}
+/*--------------------------------------------------*/
+header{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #170b87;
+    padding: 0;
+    margin: 0;
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.contract-btn{
+    color: #ffffff;
+    background: #1ca82e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contract-btn:hover{
+    background: #bfac8b;
+    color: #170b87;
+}
+/*--------------------------------------------------*/
+section{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 5%;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: #170b87;
+    text-shadow: 2px 2px #bfac8b;
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #170b87;
+    border-radius: 7px;
+}
+.card-text2{
+    display: none;
+}
+.card:hover{
+    background: #bfac8b;
+    color: #170b87;
+    padding: 40px;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text2{
+    display: inline-block;
+}
+.card:hover .card-text{
+    display: none;
+}
+/*--------------------------------------------------*/
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #170b87, hsl(246, 80%, 20%), black);
+    text-align: center;
+    border-top: 5px solid #bfac8b;
+    color: white;
+}
+.logo-footer{
+    padding: 100px;
+    padding-bottom: 140px;
+}
+.whats{
+    position: fixed;
+    bottom:5px;
+    right:5px;
+    width: 100px;
+}
